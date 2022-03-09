@@ -6,5 +6,5 @@ plasmática. Conforme completa as fases e aprende, o jogador vai desbloqueando i
 personalizar seu avatar no perfil. 
 
 Programação: Gustavo Vinícius Paulino 
-Ilustrações: Design de Interface e Sonorização: Giovanna Trindade
+Ilustrações, Design de Interface e Sonorização: Giovanna Trindade
 
