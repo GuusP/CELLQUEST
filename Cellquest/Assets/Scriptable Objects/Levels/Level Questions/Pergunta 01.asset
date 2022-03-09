@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 105c9bc2be481894fa7550d9a11f63d9, type: 3}
+  m_Name: Pergunta 01
+  m_EditorClassIdentifier: 
+  notAnsweredQuestions: []
+  PerguntasBlueprintObjet:
+  - pergunta: "O papel comum \xE9 formado, basicamente, pelo polissacar\xEDdeo mais
+      abundante no planeta. Este carboidrato, nas c\xE9lulas vegetais, tem a seguinte
+      fun\xE7\xE3o:"
+    alternativas:
+    - texto: Revestir as organelas
+      letra: 0
+    - texto: "Formar a membrana plasm\xE1tica"
+      letra: 0
+    - texto: Compor a estrutura da parede celular
+      letra: 0
+    - texto: "Acumular reserva energ\xE9tica no hialoplasma"
+      letra: 0
+    altCorreta: 65
+    questionFont: 'Pergunta retirada da: UERJ'

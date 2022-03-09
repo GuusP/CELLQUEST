@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 105c9bc2be481894fa7550d9a11f63d9, type: 3}
+  m_Name: Pergunta 12
+  m_EditorClassIdentifier: 
+  notAnsweredQuestions: []
+  PerguntasBlueprintObjet:
+  - pergunta: "As mitoc\xF4ndrias s\xE3o consideradas as \u201Ccasas de for\xE7a\u201D
+      das c\xE9lulas vivas. Tal analogia refere-se ao fato de as mitoc\xF4ndrias:"
+    alternativas:
+    - texto: "estocarem mol\xE9culas de ATP produzidas na digest\xE3o de alimentos"
+      letra: 0
+    - texto: "consumirem mol\xE9culas de ATP na s\xEDntese de glicog\xEAnio ou de
+        amido a partir de glicose"
+      letra: 0
+    - texto: "produzirem ATP com utiliza\xE7\xE3o de energia liberada na oxida\xE7\xE3o
+        de mol\xE9culas org\xE2nicas"
+      letra: 0
+    - texto: "serem capazes de absorver energia luminosa utilizada na s\xEDntese
+        de ATP"
+      letra: 0
+    altCorreta: 67
+    questionFont: 'Pergunta retirada da: UEL'

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 105c9bc2be481894fa7550d9a11f63d9, type: 3}
+  m_Name: Pergunta 08
+  m_EditorClassIdentifier: 
+  notAnsweredQuestions: []
+  PerguntasBlueprintObjet:
+  - pergunta: "\xCDons de Na+ s\xE3o capturados do citoplasma para o meio extracelular,
+      e \xEDons de pot\xE1ssio (K+) s\xE3o capturados do meio extracelular para o
+      meio intracelular. Este processo \xE9 conhecido como:"
+    alternativas:
+    - texto: "difus\xE3o facilitada por permeases intracelulares."
+      letra: 0
+    - texto: "osmose em meio hipert\xF4nico"
+      letra: 0
+    - texto: "difus\xE3o simples"
+      letra: 0
+    - texto: transporte ativo
+      letra: 0
+    altCorreta: 68
+    questionFont: ' '

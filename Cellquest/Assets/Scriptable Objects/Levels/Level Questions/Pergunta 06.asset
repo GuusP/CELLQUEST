@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 105c9bc2be481894fa7550d9a11f63d9, type: 3}
+  m_Name: Pergunta 06
+  m_EditorClassIdentifier: 
+  notAnsweredQuestions: []
+  PerguntasBlueprintObjet:
+  - pergunta: "A glicose \xE9 uma subst\xE2ncia que n\xE3o consegue penetrar livremente
+      a membrana plasm\xE1tica. Para que seu transporte ocorra para o interior da
+      c\xE9lula, \xE9 fundamental a ajuda de prote\xEDnas chamadas de permeases.
+      Esse tipo de transporte recebe o nome de:"
+    alternativas:
+    - texto: osmose
+      letra: 0
+    - texto: "difus\xE3o simples"
+      letra: 0
+    - texto: "bomba de s\xF3dio e pot\xE1ssio"
+      letra: 0
+    - texto: "difus\xE3o facilitada"
+      letra: 0
+    altCorreta: 68
+    questionFont: ' '

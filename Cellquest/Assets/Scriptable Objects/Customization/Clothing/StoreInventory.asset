@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 506c7f9a7888d7c45a02c48d76e65e77, type: 3}
+  m_Name: StoreInventory
+  m_EditorClassIdentifier: 
+  databaseSO: {fileID: 11400000, guid: 9fc783b20d7342d4f9c74beab79d34d2, type: 2}
+  inventoryList:
+  - {fileID: 11400000, guid: 8896bc89a332b0846baf3f985c243ead, type: 2}
+  - {fileID: 11400000, guid: d1b448011b9b4ab418642cc5f89c836c, type: 2}
+  - {fileID: 11400000, guid: a8b6a7824963df74f818d6d6b50900ab, type: 2}
+  - {fileID: 11400000, guid: c5e6ad4832c9ebf47a1c75ef8edd4e87, type: 2}
+  - {fileID: 11400000, guid: eebe5cd2aca0e00498ff8d1dd323ba4c, type: 2}
+  - {fileID: 11400000, guid: b6c0c9b75dc71b24fa5733daa8a81f06, type: 2}
+  - {fileID: 11400000, guid: d335c6bdf9b05a7468cab87a168a14ef, type: 2}
+  - {fileID: 11400000, guid: bc77fe4b4936f1840b96081d650e2e69, type: 2}
+  - {fileID: 11400000, guid: 05fb6eb376747c8478039eabd947cc41, type: 2}
+  - {fileID: 11400000, guid: 71a4b5be04fc54347be6f9de7ce054ec, type: 2}
+  - {fileID: 11400000, guid: 4602765d78adbf048b894e68e0fed668, type: 2}
+  - {fileID: 11400000, guid: ddff197c1d28b8745a8c63b1b90d69ae, type: 2}
+  - {fileID: 11400000, guid: b03b30a5defb3cf4d8daaa77227c1257, type: 2}
+  - {fileID: 11400000, guid: 309dd17091352f6458865b3555822e24, type: 2}
+  - {fileID: 11400000, guid: e75ffeb4ab4827e4eb41563c26fffabb, type: 2}
+  - {fileID: 11400000, guid: ff5b6f882cbb680488078bf511a3d379, type: 2}
+  - {fileID: 11400000, guid: c2317a4d9d2d0fa45a43adc3e9f83134, type: 2}
+  - {fileID: 11400000, guid: 8a7c1a96b05976543ac9d9c7ae63146f, type: 2}
+  - {fileID: 11400000, guid: 14d412efddd3bbe429474c6da0b4ffde, type: 2}
+  - {fileID: 11400000, guid: b2e6b029f8d406141883ca43fb53a847, type: 2}
+  - {fileID: 11400000, guid: 1cebb66eba260c9428b48f4f78af5a17, type: 2}
+  - {fileID: 11400000, guid: 2c1660b26e187d042905b5efc8f0ebca, type: 2}
+  - {fileID: 11400000, guid: c438d4d86bccbc14f851dbc9768e9a28, type: 2}
+  - {fileID: 11400000, guid: 9971dd4bca564a141a231f500712a0f4, type: 2}
+  - {fileID: 11400000, guid: f0bdba9e046e60b49bb958cfd08a5b23, type: 2}
+  - {fileID: 11400000, guid: 4ae3205b9f03e38459575a9218f95342, type: 2}
+  - {fileID: 11400000, guid: 0f47bb60194d9b64f8599eba06177a2f, type: 2}
+  - {fileID: 11400000, guid: 97b66e318fad43748b69097db56e8685, type: 2}
+  - {fileID: 11400000, guid: a4bfabb5934706341bc81f8e5af139e3, type: 2}
+  - {fileID: 11400000, guid: 8627ef6d4e1da02468f68ae4e6411c70, type: 2}
+  - {fileID: 11400000, guid: 4ac9e1bc75e55a14bbc5af78f4ce9f48, type: 2}
+  - {fileID: 11400000, guid: 1165d039db55269418d8216591025440, type: 2}
+  - {fileID: 11400000, guid: 46f32f9613838404c85b7e88e89ad892, type: 2}
+  - {fileID: 11400000, guid: 7bfdadb765d2c924cadb1cf95ca313db, type: 2}
+  - {fileID: 11400000, guid: 3b534d31e36c2ec448e0616be5689a83, type: 2}
+  - {fileID: 11400000, guid: e793c8d4a3794a84cb79000f3c2091b0, type: 2}
+  - {fileID: 11400000, guid: 2e16657ff78e0d24ca5ecff550773459, type: 2}
+  - {fileID: 11400000, guid: e169ddad582c46b46bd1299bdeb4e21f, type: 2}
+  - {fileID: 11400000, guid: f85c638f5b567584a9b6395167e9c603, type: 2}
+  - {fileID: 11400000, guid: 98a05de8a07b2d84db7534991772cc3f, type: 2}
+  - {fileID: 11400000, guid: d6c9161e2b8c1d6469765159f9b80724, type: 2}
+  - {fileID: 11400000, guid: 688bc408c72817c4dba7c6915e7f2e3f, type: 2}
+  - {fileID: 11400000, guid: 39b4853a470deed4799855613cf0d49e, type: 2}
+  - {fileID: 11400000, guid: aaa7e454ed01f034e95983cb3526761f, type: 2}
+  - {fileID: 11400000, guid: 2bcba415a3a94ec44a80cf42a284cb22, type: 2}
+  - {fileID: 11400000, guid: 98a51aac30ce5854984621e0ef62b0f5, type: 2}
+  - {fileID: 11400000, guid: a52295a0b47c4ee4889006e18a3ef173, type: 2}
+  - {fileID: 11400000, guid: e50aebe4651677f469d0a653304e8171, type: 2}
+  - {fileID: 11400000, guid: edaa01554837c0749a2cc40cc7e2daa0, type: 2}
+  - {fileID: 11400000, guid: 7f4090e70dc914e429e8339f5c9dada4, type: 2}
+  - {fileID: 11400000, guid: a3a6f20ac4df18140971d4319a1cab70, type: 2}
+  - {fileID: 11400000, guid: 42cfa067c4b25164f87a72dad9ca5097, type: 2}
+  savePath: StoreInventory.dat

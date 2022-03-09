@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 105c9bc2be481894fa7550d9a11f63d9, type: 3}
+  m_Name: Pergunta 02
+  m_EditorClassIdentifier: 
+  notAnsweredQuestions: []
+  PerguntasBlueprintObjet:
+  - pergunta: "\u201CA membrana plasm\xE1tica \xE9 constitu\xEDda por uma bicamada
+      de _________ com mol\xE9culas de __________ inseridas\u201D"
+    alternativas:
+    - texto: "prote\xEDnas e glicoc\xE1lix"
+      letra: 0
+    - texto: "fosfolip\xEDdios e prote\xEDnas"
+      letra: 0
+    - texto: "fosfolip\xEDdios e lip\xEDdios"
+      letra: 0
+    - texto: "lip\xEDdios e fosfolip\xEDdios"
+      letra: 0
+    altCorreta: 66
+    questionFont: ' '
