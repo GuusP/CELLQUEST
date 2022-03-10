@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinToGive: 75
   lifeToTake: 1
-  alreadyFinished: 0
+  alreadyFinished: 1
   rewardItems: []

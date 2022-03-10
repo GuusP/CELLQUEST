@@ -20,6 +20,7 @@ public class ItemSO : ScriptableObject
     {
         isLocked = false;
         inventoryToGo.AddItem(this);
+        
     }
 
     public void LockItem()

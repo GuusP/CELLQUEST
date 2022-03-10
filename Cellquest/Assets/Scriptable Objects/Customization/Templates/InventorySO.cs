@@ -26,6 +26,8 @@ public class InventorySO : ScriptableObject, ISavable
     {
         inventoryList.Add(item);
         item.itemID = databaseSO.GetID[item];
+        List<InventorySO> inventories = new List<InventorySO>() { this };
+        SaveDataManager.SaveJsonData(inventories, this.savePath);
     }
 
     public void LoadFromSaveData(SaveData a_SaveData)
@@ -50,6 +52,8 @@ public class InventorySO : ScriptableObject, ISavable
     public void RemoveItem(ItemSO item)
     {
         inventoryList.Remove(item);
+        List<InventorySO> inventories = new List<InventorySO>() { this };
+        SaveDataManager.SaveJsonData(inventories, this.savePath);
     }
 
 

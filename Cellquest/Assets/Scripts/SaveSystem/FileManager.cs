@@ -35,8 +35,8 @@ public class FileManager {
     public static bool LoadFromFile(string a_FileName,  out string result) // método para pegar as coisas do arquivo e passar para result
     {
         var fullPath = Path.Combine(Application.persistentDataPath, a_FileName);
-        
 
+        Debug.Log("Load");
         try
         {
             result = File.ReadAllText(fullPath);

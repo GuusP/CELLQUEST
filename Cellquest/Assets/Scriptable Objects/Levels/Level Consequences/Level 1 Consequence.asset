@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinToGive: 75
   lifeToTake: 1
-  alreadyFinished: 0
+  alreadyFinished: 1
   rewardItems:
   - {fileID: 11400000, guid: 16748237541813540b8335290ce969ed, type: 2}
