@@ -18,4 +18,4 @@ MonoBehaviour:
   isLocked: 1
   inventoryToGo: {fileID: 11400000, guid: 6f5a0237ba4a2a94998ebf170bf0191d, type: 2}
   price: 235
-  itemID: 0
+  itemID: 10

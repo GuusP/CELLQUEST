@@ -16,17 +16,17 @@ public class ItemSO : ScriptableObject
     public int price;
     public int itemID;
 
-    public void UnlockItem()
+    public void UnlockItem(bool save)
     {
         isLocked = false;
-        inventoryToGo.AddItem(this);
+        inventoryToGo.AddItem(this, save);
         
     }
 
-    public void LockItem()
+    public void LockItem(bool save)
     {
         isLocked = true;
-        inventoryToGo.RemoveItem(this);
+        inventoryToGo.RemoveItem(this, save);
     }
 
     public void EquipItem(SpriteRenderer spriteRenderer)

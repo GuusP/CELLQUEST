@@ -33,8 +33,7 @@ public class LevelConsequenceSO : ScriptableObject
         {
             foreach(ItemSO item in rewardItems)
             {
-                Debug.Log("item desbloqueado");
-                item.UnlockItem();
+                item.UnlockItem(true);
             }
             alreadyFinished = true;
         }

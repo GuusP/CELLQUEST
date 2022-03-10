@@ -32,6 +32,11 @@ public class ItemDatabaseSO : ScriptableObject, ISerializationCallbackReceiver
     {
     }
 
+    public void OnEnable()
+    {
+        SetIDs();
+    }
+
     public void SetIDs()
     {
         GetID = new Dictionary<ItemSO, int>();
@@ -40,5 +45,6 @@ public class ItemDatabaseSO : ScriptableObject, ISerializationCallbackReceiver
             GetID.Add(Items[i], i);
             Items[i].itemID = i;
         }
+
     }
 }

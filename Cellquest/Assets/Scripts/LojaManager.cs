@@ -60,7 +60,7 @@ public class LojaManager : SingletonSingleScene<LojaManager>
                 }else
                 {
                     PlayerManager.Instance.UpdateCoins(-itemToBuy.price);
-                    itemToBuy.UnlockItem();
+                    itemToBuy.UnlockItem(true);
                     itemUI.inventory.inventoryList.Remove(itemToBuy);
                     itemUI.SetItem();
                     PerfilManager.Instance.itemUI.SetItem();

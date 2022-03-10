@@ -22,13 +22,16 @@ public class InventorySO : ScriptableObject, ISavable
     public ItemDatabaseSO databaseSO;
     public List<ItemSO> inventoryList;
     public string savePath;
-    public void AddItem(ItemSO item)
+    public void AddItem(ItemSO item, bool save)
     {
         inventoryList.Add(item);
         item.itemID = databaseSO.GetID[item];
         List<InventorySO> inventories = new List<InventorySO>() { this };
         SaveDataManager.SaveJsonData(inventories, this.savePath);
+
     }
+
+
 
     public void LoadFromSaveData(SaveData a_SaveData)
     {
@@ -49,11 +52,12 @@ public class InventorySO : ScriptableObject, ISavable
         a_SaveData.itemsIDs = saveData.itemsIDs;
     }
 
-    public void RemoveItem(ItemSO item)
+    public void RemoveItem(ItemSO item, bool save)
     {
         inventoryList.Remove(item);
         List<InventorySO> inventories = new List<InventorySO>() { this };
         SaveDataManager.SaveJsonData(inventories, this.savePath);
+
     }
 
 
