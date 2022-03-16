@@ -185,6 +185,7 @@ public class PerfilManager : SingletonSingleScene<PerfilManager>, ISavable
        
         EquipItem(databaseSO.Items[itemUsedID[itemType.Blusa]], true);
         EquipItem(databaseSO.Items[itemUsedID[itemType.Skin]], true);
+        EquipItem(databaseSO.Items[itemUsedID[itemType.Oculos]], true);
         EquipItem(databaseSO.Items[hairsID[hairInUse]], true);
         
         
