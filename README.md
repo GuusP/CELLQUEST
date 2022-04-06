@@ -7,6 +7,9 @@ o ensino de Biologia Celular para estudantes do ensino médio. Nessa versão, o 
 plasmática. Conforme completa as fases e aprende, o jogador vai desbloqueando itens, conquistando estrelas e moedas. As moedas ele pode comprar acessórios na loja e com eles 
 personalizar seu avatar no perfil. 
 
+Trailer: https://youtu.be/FQhGwnxtPiw
+APK: https://drive.google.com/file/d/1f_JLktAx8je4rAZb486PWRuk4HgTmW1a/view?usp=sharing
+
 Programação: Gustavo Vinícius Paulino 
 Ilustrações, Design de Interface e Sonorização: Giovanna Trindade
 
