@@ -7,9 +7,15 @@ o ensino de Biologia Celular para estudantes do ensino médio. Nessa versão, o 
 plasmática. Conforme completa as fases e aprende, o jogador vai desbloqueando itens, conquistando estrelas e moedas. As moedas ele pode comprar acessórios na loja e com eles 
 personalizar seu avatar no perfil. 
 
+[EN]
+(Project developed in Unity 2020.3.16f1)
+
+CELLQUEST is a mobile game developed by Digital Game Programming students at Instituto Federal do Paraná - Campus Curitiba. The objective of the application is teaching Cell Biology to high school students. In this version, the game has question and answer phases and a minigame about 
+the structure of the plasma membrane. As the player completes the stages and learn, the player unlocks items, earning stars and coins. The coins can be used to buy accessories in the store and with them customize the player's profile avatar.
+
 Trailer: https://youtu.be/FQhGwnxtPiw
 APK: https://drive.google.com/file/d/1f_JLktAx8je4rAZb486PWRuk4HgTmW1a/view?usp=sharing
 
-Programação: Gustavo Vinícius Paulino 
+Programação/Programming: Gustavo Vinícius Paulino 
 Ilustrações, Design de Interface e Sonorização: Giovanna Trindade
 
